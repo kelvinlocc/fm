@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<!--parent="@android:style/Theme.DeviceDefault.Light.NoActionBar"-->
+    <style name="splashScreenTheme">
+        <item name="android:windowBackground">@drawable/splash_screen_not_t</item>
+
+        <!--<layer-list>-->
+            <!--<item>-->
+                <!--<shape :shape="rectangle">-->
+                    <!--<solid :color="@color/white" />-->
+                <!--</shape>-->
+            <!--</item>-->
+            <!--<item>-->
+                <!--<bitmap :gravity="center" :src="@drawable/splash_screen" />-->
+            <!--</item>-->
+        <!--</layer-list>-->
+    </style>
+</resources>
